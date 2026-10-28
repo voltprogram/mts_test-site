@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>株式会社MTS</title>
+    <!-- RESET_CSS -->
+    <link rel="stylesheet" href="assets/css/ress.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500;700&family=Noto+Sans+JP:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- SWIPER-CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- SWIPER-JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js" defer></script>
+    <!-- JS -->
+    <script src="assets/js/main.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <div class="header__inner">
+            <a href="/" class="header__logo">株式会社 MTS</a>
+            <button class="header__menu-button" type="button" aria-label="メニューを開く" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav class="header__nav">
+                <ul class="header__nav-list">
+                    <li><a href="#">ホーム</a></li>
+                    <li><a href="#company">会社概要</a></li>
+                    <li><a href="#facility">施設紹介</a></li>
+                    <li><a href="#event">イベント情報</a></li>
+                    <li><a href="#recruit">採用情報</a></li>
+                    <li><a href="#contact">お問い合わせ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="hero__content">
+                <div class="hero__content-inner">
+                    <h1 class="hero__title m-plus">
+                        人生の大切な節目に、<br>
+                        そっと寄り添う。
+                    </h1>
+                    <p class="hero__text">
+                        イベントを通じて、<br>
+                        地域の皆様に、<br>
+                        笑顔と安心をお届けします。
+                    </p>
+                    <div class="hero__buttons">
+                        <a href="#event" class="button button--primary">
+                            <span>イベント情報を見る</span>
+                            <span class="button__arrow">›</span>
+                        </a>
+                        <a href="#recruit" class="button button--outline">
+                            <span>採用情報を見る</span>
+                            <span class="button__arrow">›</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="hero__visual">
+                <div class="hero__slider swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="assets/images/main-fv_01.webp" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="assets/images/main-fv_02.webp" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="assets/images/main-fv_03.webp" alt="">
+                        </div>
+                    </div>
+                    <button class="hero__prev swiper-button-prev" type="button" aria-label="前のスライドへ"></button>
+                    <button class="hero__next swiper-button-next" type="button" aria-label="次のスライドへ"></button>
+                    <div class="hero__pagination swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+        <section class="mission">
+            <div class="mission__inner">
+                <div class="mission__box">
+                    <div class="mission__content">
+                        <div class="mission__image">
+                            <img src="assets/images/our-mission.webp" alt="料理のイメージ">
+                        </div>
+                        <div class="mission__body">
+                            <h2 class="mission__title m-plus">私たちの想い</h2>
+
+                            <p class="mission__text">
+                                私たちは、山梨県甲府市を中心に「冠婚葬祭」にまつわる様々なイベントを企画・運営している会社です。<br>
+                                七五三、成人式、結婚式といった「人生の輝かしいお祝いの舞台」から、お葬式という「大切な方との最後のお別れの場」まで。人生の重要な節目において、地域の皆様が安心して特別な日を迎えられるよう、心を込めてお手伝いをしています。
+                            </p>
+                        </div>
+                    </div>
+                    <ul class="mission__category">
+                        <li class="mission__category-item">
+                            <img class="mission__icon" src="assets/images/event.svg" alt="">
+                            <span class="mission__category-name">七五三</span>
+                        </li>
+                        <li class="mission__category-item">
+                            <img class="mission__icon" src="assets/images/age-ceremony.svg" alt="">
+                            <span class="mission__category-name">成人式</span>
+                        </li>
+                        <li class="mission__category-item">
+                            <img class="mission__icon" src="assets/images/wedding.svg" alt="">
+                            <span class="mission__category-name">結婚式</span>
+                        </li>
+                        <li class="mission__category-item">
+                            <img class="mission__icon" src="assets/images/funeral.svg" alt="">
+                            <span class="mission__category-name">葬儀</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="facility" id="facility">
+            <div class="facility__inner">
+                <h2 class="facility__title m-plus">施設紹介</h2>
+                <div class="facility__main">
+                    <img class="facility__main-image" src="assets/images/facility.webp" alt="ベルクラシック甲府">
+                    <div class="facility__main-info">
+                        <h3 class="facility__main-name">ベルクラシック甲府</h3>
+                        <p class="facility__main-address">〒400-0031 山梨県甲府市丸の内1丁目1-17</p>
+                        <p class="facility__main-tel">tel.055-254-1000</p>
+                    </div>
+                </div>
+                <div class="facility__city">
+                    <h3 class="facility__city-title m-plus">
+                        あんしん祭典 シティホール
+                        <span>（12施設）</span>
+                    </h3>
+                    <div class="facility__list">
+                        <article class="facility__item">
+                            <img class="facility__item-image" src="assets/images/kofu-city-hall.webp" alt="甲府シティホール">
+                            <div class="facility__item-info">
+                                <h4 class="facility__item-name">甲府シティホール</h4>
+                                <p class="facility__item-address">〒400-0026 山梨県甲府市塩部4-10-10</p>
+                                <p class="facility__item-tel">tel.055-251-4411</p>
+                            </div>
+                        </article>
+                        <article class="facility__item">
+                            <img class="facility__item-image" src="assets/images/royal-city-hall.webp" alt="ロイヤルシティホール">
+                            <div class="facility__item-info">
+                                <h4 class="facility__item-name">ロイヤルシティホール</h4>
+                                <p class="facility__item-address">〒400-0863 山梨県甲府市南口町1-23</p>
+                                <p class="facility__item-tel">tel.055-232-4444</p>
+                            </div>
+                        </article>
+                        <article class="facility__item">
+                            <img class="facility__item-image" src="assets/images/syowa-city-hall.webp" alt="昭和シティホール">
+                            <div class="facility__item-info">
+                                <h4 class="facility__item-name">昭和シティホール</h4>
+                                <p class="facility__item-address">〒409-3866 山梨県中巨摩郡昭和町西条1035-1</p>
+                                <p class="facility__item-tel">tel.055-275-0983</p>
+                            </div>
+                        </article>
+                        <article class="facility__item">
+                            <img class="facility__item-image" src="assets/images/tosyosou-city-hall.webp" alt="シティホール東翔苑">
+                            <div class="facility__item-info">
+                                <h4 class="facility__item-name">シティホール東翔苑</h4>
+                                <p class="facility__item-address">〒405-0078 山梨県笛吹市一宮町田中1169</p>
+                                <p class="facility__item-tel">tel.0553-47-4210</p>
+                            </div>
+                        </article>
+                        <article class="facility__item">
+                            <img class="facility__item-image" src="assets/images/kamiahara-city-hall.webp" alt="上阿原シティホール">
+                            <div class="facility__item-info">
+                                <h4 class="facility__item-name">上阿原シティホール</h4>
+                                <p class="facility__item-address">〒400-0814 山梨県甲府市上阿原町1094-1</p>
+                                <p class="facility__item-tel">tel.055-235-4242</p>
+                            </div>
+                        </article>
+                        <article class="facility__item">
+                            <img class="facility__item-image" src="assets/images/yamanashi-city-hall.webp" alt="山梨市駅前シティホール">
+                            <div class="facility__item-info">
+                                <h4 class="facility__item-name">山梨市駅前シティホール</h4>
+                                <p class="facility__item-address">〒405-0018 山梨県山梨市上神内川1431-1</p>
+                                <p class="facility__item-tel">tel.0553-20-1194</p>
+                            </div>
+                        </article>
+                        <article class="facility__item">
+                            <img class="facility__item-image" src="assets/images/ryuou-city-hall.webp" alt="竜王シティホール">
+                            <div class="facility__item-info">
+                                <h4 class="facility__item-name">竜王シティホール</h4>
+                                <p class="facility__item-address">〒400-0113 山梨県甲斐市富竹新田1281-1</p>
+                                <p class="facility__item-tel">tel.055-260-4242</p>
+                            </div>
+                        </article>
+                        <article class="facility__item">
+                            <img class="facility__item-image" src="assets/images/en-city-hall.webp" alt="葬儀法要会館えん -縁-">
+                            <div class="facility__item-info">
+                                <h4 class="facility__item-name">葬儀法要会館えん -縁-</h4>
+                                <p class="facility__item-address">〒400-0863 山梨県甲府市南口町1-5</p>
+                                <p class="facility__item-tel">tel.055-235-7177</p>
+                            </div>
+                        </article>
+                        <article class="facility__item">
+                            <img class="facility__item-image" src="assets/images/itikawa-city-hall.webp" alt="市川三郷シティホール">
+                            <div class="facility__item-info">
+                                <h4 class="facility__item-name">市川三郷シティホール</h4>
+                                <p class="facility__item-address">
+                                    〒409-3601 山梨県西八代郡<br>
+                                    市川三郷町市川大門1402
+                                </p>
+                                <p class="facility__item-tel">tel.055-272-1194</p>
+                            </div>
+                        </article>
+                        <article class="facility__item">
+                            <img class="facility__item-image" src="assets/images/nirasaki-city-hall.webp" alt="家族葬ホール韮崎">
+                            <div class="facility__item-info">
+                                <h4 class="facility__item-name">家族葬ホール韮崎</h4>
+                                <p class="facility__item-address">〒400-0863 山梨県甲府市南口町1-23</p>
+                                <p class="facility__item-tel">tel.0551-23-1194</p>
+                            </div>
+                        </article>
+                        <article class="facility__item">
+                            <img class="facility__item-image" src="assets/images/hokuto-city-hall.webp" alt="北杜セレモニーホール">
+                            <div class="facility__item-info">
+                                <h4 class="facility__item-name">北杜セレモニーホール</h4>
+                                <p class="facility__item-address">〒408-0015 山梨県北杜市高根町下黒澤22</p>
+                                <p class="facility__item-tel">tel.0551-47-5420</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="regular-event" id="event">
+            <div class="regular-event__inner">
+                <h2 class="regular-event__title m-plus">定期イベントのご案内</h2>
+                <p class="regular-event__lead">
+                    地域の皆様に冠婚葬祭をより身近に、安心して感じていただけるよう、<br>
+                    毎月定期的なイベントや相談会を開催しています。
+                </p>
+                <div class="regular-event__list">
+                    <article class="regular-event__card">
+                        <h3 class="regular-event__card-title regular-event__card-title--bell">
+                            ベルクラシック甲府のイベント
+                        </h3>
+                        <div class="regular-event__card-body">
+                            <img
+                                class="regular-event__image regular-event__image--bell"
+                                src="assets/images/bellclassic-img.webp"
+                                alt="ベルクラシック甲府"
+                            >
+                            <div class="regular-event__content">
+                                <p class="regular-event__text">
+                                    華やかな結婚式場を舞台に、ブライダルフェアや成人式・七五三の衣装展示会、各種体験イベントなどを開催しています。
+                                </p>
+                                <div class="regular-event__link-area">
+                                    <a class="regular-event__button" href="#">
+                                        <span>詳しく見る</span>
+                                        <span class="regular-event__arrow">›</span>
+                                    </a>
+                                    <p class="regular-event__note">
+                                        （ベルクラシック甲府のイベントページへ）
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="regular-event__card">
+                        <h3 class="regular-event__card-title regular-event__card-title--anshin">
+                            あんしん祭典 シティーホールのイベント
+                        </h3>
+                        <div class="regular-event__card-body">
+                            <img
+                                class="regular-event__image regular-event__image--anshin"
+                                src="assets/images/anshin-saiten.webp"
+                                alt="あんしん祭典"
+                            >
+                            <div class="regular-event__content">
+                                <p class="regular-event__text">
+                                    終活相談会や、いざという時に困らないための「あんしん葬儀勉強会」、地域の方々が気軽にお集まりいただけるイベントなどを開催しています。
+                                </p>
+                                <div class="regular-event__link-area">
+                                    <a class="regular-event__button" href="#">
+                                        <span>詳しく見る</span>
+                                        <span class="regular-event__arrow">›</span>
+                                    </a>
+                                    <p class="regular-event__note">
+                                        （あんしん祭典のイベントページへ）
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section class="recruit" id="recruit">
+            <div class="recruit__inner">
+                <div class="recruit__heading">
+                    <h2 class="recruit__title m-plus">採用情報</h2>
+                    <p class="recruit__subtitle">（リクルート）</p>
+                </div>
+                <div class="recruit__content">
+                    <div class="recruit__text">
+                        <p class="recruit__lead">
+                            「ありがとう」が直接聞ける、<br>
+                            やりがいのあるお仕事をはじめませんか？
+                        </p>
+                        <p class="recruit__description">
+                            イベントの企画・運営や、当日のお客様のご案内を<br>
+                            お手伝いしてくれる新しい仲間を募集しています！
+                        </p>
+                    </div>
+                    <div class="recruit__image">
+                        <img src="assets/images/recruit-img.webp" alt="採用情報">
+                    </div>
+                    <div class="recruit__entry">
+                        <p class="recruit__entry-title">現在募集中の採用情報</p>
+                        <a href="#" class="recruit__button">
+                            <span>弊社イベントページ</span>
+                            <span class="recruit__button-arrow">›</span>
+                        </a>
+                        <p class="recruit__note">※募集は採用サイトをご覧ください。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="company" id="company">
+            <div class="company__inner">
+                <h2 class="company__title m-plus">会社概要</h2>
+                <div class="company__tables">
+                    <table class="company__table">
+                        <tbody>
+                            <tr>
+                                <th>会社名</th>
+                                <td>株式会社 MTS</td>
+                            </tr>
+                            <tr>
+                                <th>設立</th>
+                                <td>令和６年３月２５日</td>
+                            </tr>
+                            <tr>
+                                <th>本社</th>
+                                <td>山梨県甲府市朝日２-１８-９</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table class="company__table">
+                        <tbody>
+                            <tr>
+                                <th>事業内容</th>
+                                <td>冠婚葬祭・セレモニー関連業務</td>
+                            </tr>
+                            <tr>
+                                <th>代表者</th>
+                                <td>向井 仁志</td>
+                            </tr>
+                            <tr>
+                                <th>業務区域</th>
+                                <td>山梨県県内</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+        <section class="contact" id="contact">
+            <div class="contact__inner">
+                <h2 class="contact__title m-plus">お問い合わせ・ご応募</h2>
+                <p class="contact__text">
+                    イベントへのご参加希望や、採用に関するご質問・ご応募はお気軽にご連絡ください。
+                </p>
+                <div class="contact__tel">
+                    <img src="assets/images/tel.svg" alt="" class="contact__tel-icon">
+                    <div class="contact__tel-info">
+                        <a href="tel:0552215577" class="contact__tel-number m-plus">055-221-5577</a>
+                        <p class="contact__tel-hours">（受付時間：平日 10:00 ～ 17:00）</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="footer__main">
+                <div class="footer__inner">
+                    <a href="/" class="footer__logo">株式会社 MTS</a>
+                    <nav class="footer__nav" aria-label="フッターナビゲーション">
+                        <ul class="footer__nav-list">
+                            <li><a href="#company">会社概要</a></li>
+                            <li><a href="#">プライバシーポリシー</a></li>
+                            <li><a href="#">サイトマップ</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="footer__copyright">
+                <small>©2026 株式会社MTS　All Rights Reserved.</small>
+            </div>
+        </footer>
+    </main>
+</body>
+</html>
